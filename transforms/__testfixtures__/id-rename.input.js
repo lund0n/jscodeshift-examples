@@ -1,5 +1,5 @@
 const a = 'Hello, ';
 
-function showGreeting(name = 'someone') {
+function showGreeting(name) {
   return a + name;
 }

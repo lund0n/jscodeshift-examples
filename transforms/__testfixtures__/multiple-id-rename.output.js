@@ -1,10 +1,10 @@
 const greeting = 'Hello, ';
 const farewell = 'Farewell, ';
 
-function showGreeting(name = 'someone') {
+function showGreeting(name) {
   return greeting + name;
 }
 
-function showFarewell(name = 'someone') {
+function showFarewell(name) {
   return farewell + name;
 }
