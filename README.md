@@ -2,6 +2,10 @@
 
 These examples were primarily created to demonstrate the use of [jscodeshift](https://github.com/facebook/jscodeshift) for a presentation at MidwestJS 2018.
 
+##
+
+- Slides are [here](https://docs.google.com/presentation/d/1jIUf7Bv_ebmuHrTjP_iyO6IpeTkRWQLKbZXArzG4QpI/edit?usp=sharing)
+
 ## Getting Started
 
 ```bash
