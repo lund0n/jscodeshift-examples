@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`using snapshots ignores elses that already have braces 1`] = `"if (true) { return \\"Yes\\"} else { return \\"No\\"}"`;
+
+exports[`using snapshots ignores ifs that already have braces 1`] = `"if (true) { return \\"Yes\\"}"`;
+
+exports[`using snapshots wraps the if in braces 1`] = `
+"if (true) {
+  return \\"Yes\\"
+}"
+`;
