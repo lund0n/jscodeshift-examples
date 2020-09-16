@@ -1,16 +1,12 @@
 # JSCodeshift Examples
 
-These examples were primarily created to demonstrate the use of [jscodeshift](https://github.com/facebook/jscodeshift) for a presentation at MidwestJS 2019.
-
-##
-
-- Slides are [here](https://docs.google.com/presentation/d/1SLXzqAwUtsoFYLh0xT5_wnDDoYrSpnXS_R-99bWYxXc/edit?usp=sharing)
+These examples were primarily created to demonstrate the use of [jscodeshift](https://github.com/facebook/jscodeshift).
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/lund0n/jscodeshift-midwestjs
-cd jscodeshift-midwestjs
+git clone https://github.com/lund0n/jscodeshift-examples
+cd jscodeshift-examples
 npm install
 npm test
 ```

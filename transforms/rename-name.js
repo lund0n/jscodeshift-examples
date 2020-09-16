@@ -17,7 +17,7 @@ function transformer(file, api) {
         name: 'showGreeting',
       },
     })
-    .forEach(p => {
+    .forEach((p) => {
       replaceIdentifier(p, 'name', 'anotherName');
     });
   return root.toSource();

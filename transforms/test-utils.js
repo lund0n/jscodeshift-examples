@@ -2,7 +2,7 @@ const { resolve } = require('path');
 const { readFileSync } = require('fs');
 const jscodeshift = require('jscodeshift');
 
-const createTransformer = transformer => (source, path = 'index.js') =>
+const createTransformer = (transformer) => (source, path = 'index.js') =>
   transformer({ path, source }, { jscodeshift, stats: () => {} });
 
 const readInput = (filename, base = resolve(__dirname, '__testfixtures__')) =>

@@ -15,6 +15,7 @@ function transformer(file, api) {
   return root.toSource();
 }
 
+// eslint-disable-next-line no-unused-vars
 function transformer2(file, api) {
   const j = api.jscodeshift;
 
@@ -24,8 +25,8 @@ function transformer2(file, api) {
   };
   return j(file.source)
     .find(j.Identifier)
-    .filter(p => toUpdate[p.value.name])
-    .replaceWith(p => j.identifier(toUpdate[p.value.name]))
+    .filter((p) => toUpdate[p.value.name])
+    .replaceWith((p) => j.identifier(toUpdate[p.value.name]))
     .toSource();
 }
 module.exports = transformer;

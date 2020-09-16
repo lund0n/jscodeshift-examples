@@ -1,12 +1,12 @@
 {
-  "name": "jscodeshift-midwestjs",
+  "name": "jscodeshift-examples",
   "version": "1.0.0",
   "description": "Sample jscodeshift mods",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lund0n/jscodeshift-midwestjs.git"
+    "url": "https://github.com/lund0n/jscodeshift-examples.git"
   },
-  "homepage": "https://github.com/lund0n/jscodeshift-midwestjs#readme",
+  "homepage": "https://github.com/lund0n/jscodeshift-examples#readme",
   "scripts": {
     "test": "jest"
   },
@@ -17,13 +17,13 @@
   "author": "Jeremy Lund <jeremy.r.lund@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-unicorn": "^10.0.0",
-    "jest": "^24.8.0",
-    "jscodeshift": "^0.6.4",
-    "prettier": "^1.18.2"
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "jest": "^26.4.2",
+    "jscodeshift": "^0.11.0",
+    "prettier": "^2.1.1"
   },
   "jest": {
     "testEnvironment": "node"

@@ -9,7 +9,7 @@ function transformer(file, api) {
         value: 'util/flatten',
       },
     })
-    .forEach(p => {
+    .forEach((p) => {
       p.value.source.value = 'lodash/flatten';
     });
   return root.toSource({ quote: 'single' });
