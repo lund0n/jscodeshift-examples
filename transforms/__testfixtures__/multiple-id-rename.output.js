@@ -1,3 +1,4 @@
+// This is a message module.
 const greeting = 'Hello, ';
 const farewell = 'Farewell, ';
 
